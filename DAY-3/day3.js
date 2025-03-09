@@ -2,7 +2,7 @@
 
 // ### Task 1
 // - Write a program to check if a number is positive, negative, or zero, and log the result to the console.
-let num=-4
+let num=-7
 
 if (num==0) {
     console.log("number is zero");
