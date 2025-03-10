@@ -75,4 +75,29 @@ switch (x) {
     default:
         break;
 }
+// ### Task 5
+// - Write a program that uses a switch case to assign a grade ('A', 'B', 'C', 'D', 'F') based on a score and log the grade to the console.
+let score=prompt("Enter Number")
+switch (true){
+    case score>=90:
+        console.log("A");
+        break;
+    case score>=80 && score<90:
+        console.log("B");
+        break;
+    case score>=70 && score<80:
+        console.log("C");
+        break;
+    case score>=60 && score<70:
+         console.log("D");
 
+        break;
+    case score>=50 && score<600:
+        console.log("E");
+         break;
+    case score<50 && score >=0:
+         console.log("FAIL");
+         break;
+    default:
+        break;
+}
