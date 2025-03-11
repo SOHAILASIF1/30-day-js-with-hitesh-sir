@@ -31,3 +31,48 @@ while (num1>=1) {
     num1=num1-1
     
 }
+
+
+
+// ### Task 5
+// - Write a program to print numbers from 1 to 5 using a do...while loop.
+num=1
+do {
+     console.log(num);
+     num++
+
+    
+} while (num<=5);
+
+// ### Task 5
+// - Write a program to print numbers from 1 to 5 using a do...while loop.
+num=1
+result=1
+n=10
+do {
+    result=result*num
+    num++
+    
+} while (num<=n);
+console.log(result);
+
+// ### Task 8
+// - Write a program to print numbers from 1 to 10, but skip the number 5 using the continue statement.
+for (let index = 0; index <=10; index++) {
+    if (index===3) {
+        continue
+        
+    }
+    console.log(index);
+    
+}
+// ## Task 9
+// - Write a program to print numbers from 1 to 10, but stop the loop when the number is 7 using the break statement.
+for (let index = 0; index <=10; index++) {
+    if (index===4) {
+        break
+        
+    }
+    console.log(index);
+    
+}
