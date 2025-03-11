@@ -73,6 +73,6 @@ for (let index = 0; index <=10; index++) {
         break
         
     }
-    console.log(index);
+    console.log("loop",index);
     
 }
