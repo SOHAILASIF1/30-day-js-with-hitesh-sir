@@ -69,8 +69,8 @@ for (let index = 0; index <=10; index++) {
 // ## Task 9
 // - Write a program to print numbers from 1 to 10, but stop the loop when the number is 7 using the break statement.
 for (let index = 0; index <=10; index++) {
-    if (index===4) {
-        break
+    if (index===7) {
+        break; 
         
     }
     console.log("loop",index);
