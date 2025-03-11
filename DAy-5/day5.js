@@ -68,3 +68,38 @@ const checkStr=(str)=>{
 }
 
 console.log(checkStr("hello i am sohail"));
+
+
+// ## Activity 4: Function Parameters and Default Values
+
+// ### Task 7
+// Write a function that takes two parameters and returns their product. Provide a default value for the second parameter.
+function multiply(num1,num2="4"){
+    return num1*num2
+}
+console.log(multiply(2));
+
+// ### Task 8/
+// Write a function that takes a person's name and age and returns a greeting message. Provide a default value for the age.
+function greeting(name,age=10) {
+    console.log(`hey my name is ${name} and my age is ${age} years`);
+    
+}
+greeting("sohail")
+
+
+// ## Activity 5: Higher-Order Functions
+
+// ### Task 9
+// Write a higher-order function that takes a function and a number, and calls the function that many times.
+function numBer(num){
+    return function(val){
+        return num*val
+    }
+
+}
+ double=numBer(6)
+console.log(double(8));
+
+// ### Task 10
+// Write a higher-order function that takes two functions and a value, applies the first function to the value, and then applies the second function to the result.
