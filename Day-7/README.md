@@ -14,6 +14,7 @@ Add a method to the book object that returns a string with the book's title and 
 ### Task 4
 Add a method to the book object that takes a parameter (year) and updates the book's year property, then log the updated object.
 
+
 ## Activity 3: Nested Objects
 
 ### Task 5
