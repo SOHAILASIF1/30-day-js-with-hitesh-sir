@@ -45,3 +45,18 @@ function sum(a,b,...rest){
     return a+b+rest.reduce((acc,curr)=>(acc+curr),0)
 }
 console.log(sum(1,2,3,4,5,6,7,8,9,10));
+
+
+
+// ## Activity 4: Default Parameters
+
+// ### Task 7
+// Write a function that takes two parameters and returns their product, with the second parameter having a default value of 1. Log the result of calling this function with and without the second parameter.
+function product(a,b=1){
+    return a*b
+}
+console.log(product(3,4));
+console.log(product(2));
+
+
+
