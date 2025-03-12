@@ -1,53 +1,56 @@
-## Activity 1: Template Literals
+## Activity 1: Selecting and Manipulating Elements
 
 ### Task 1
-Use template literals to create a string that includes variables for a person's name and age, and log the string to the console.
+Select an HTML element by its ID and change its text content.
 
 ### Task 2
-Create a multi-line string using template literals and log it to the console.
+Select an HTML element by its class and change its background color.
 
-## Activity 2: Destructuring
+## Activity 2: Creating and Appending Elements
 
 ### Task 3
-Use array destructuring to extract the first and second elements from an array of numbers and log them to the console.
+Create a new `div` element with some text content and append it to the body.
 
 ### Task 4
-Use object destructuring to extract the title and author from a book object and log them to the console.
+Create a new `li` element and add it to an existing `ul` list.
 
-## Activity 3: Spread and Rest Operators
+## Activity 3: Removing Elements
 
 ### Task 5
-Use the spread operator to create a new array that includes all elements of an existing array plus additional elements, and log the new array to the console.
+Select an HTML element and remove it from the DOM.
 
 ### Task 6
-Use the rest operator in a function to accept an arbitrary number of arguments, sum them, and return the result.
+Remove the last child of a specific HTML element.
 
-## Activity 4: Default Parameters
+## Activity 4: Modifying Attributes and Classes
 
 ### Task 7
-Write a function that takes two parameters and returns their product, with the second parameter having a default value of 1. Log the result of calling this function with and without the second parameter.
-
-## Activity 5: Enhanced Object Literals
+Select an HTML element and change one of its attributes (e.g., `src` of an `img` tag).
 
 ### Task 8
-Use enhanced object literals to create an object with methods and properties, and log the object to the console.
+Add and remove a CSS class to/from an HTML element.
+
+## Activity 5: Event Handling
 
 ### Task 9
-Create an object with computed property names based on variables and log the object to the console.
+Add a click event listener to a button that changes the text content of a paragraph.
+
+### Task 10
+Add a mouseover event listener to an element that changes its border color.
 
 ## Feature Requests
 
-### 1. Template Literals Script
-- Write a script that demonstrates the use of template literals to create and log strings with embedded variables and multi-line strings.
+### 1. Text Content Manipulation Script
+- Write a script that selects an HTML element by its ID and changes its text content.
 
-### 2. Destructuring Script
-- Create a script that uses array and object destructuring to extract values and log them.
+### 2. Element Creation Script
+- Create a script that demonstrates creating a new `div` element and appending it to the body.
 
-### 3. Spread and Rest Operators Script
-- Write a script that demonstrates the use of the spread operator to combine arrays and the rest operator to handle multiple function arguments.
+### 3. Element Removal Script
+- Write a script that selects an HTML element and removes it from the DOM.
 
-### 4. Default Parameters Script
-- Create a script that defines a function with default parameters and logs the results of calling it with different arguments.
+### 4. Attribute Modification Script
+- Create a script that changes the attributes of an HTML element.
 
-### 5. Enhanced Object Literals Script
-- Write a script that uses enhanced object literals to create and log an object with methods and computed property names.
+### 5. Event Handling Script
+- Write a script that adds event listeners to HTML elements to change their content or style based on user interactions.
