@@ -43,5 +43,25 @@ try {
 }
 
 
+// **Task 3: Execution Flow Observation**
+
+// * Construct a script that includes a `try-catch` block and a `finally` block.
+// * Log messages within each block (`try`, `catch`, and `finally`) to observe the order of execution.
+try {
+    console.log("ho gia");
+    throw new Error("custom error")
+    
+} catch (error) {
+    console.log(error.message);
+  
+        
+   
+    
+} finally{
+    console.log("mashallah");
+
+}
+
+
 
 
