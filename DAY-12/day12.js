@@ -61,6 +61,33 @@ try {
     console.log("mashallah");
 
 }
+// **Task 5: Custom Error for Validation**
+
+// * Create a function that validates user input (e.g., checking for an empty string).
+// * If the validation fails, throw a custom error object with a descriptive message.
+// * Utilize a `try-catch` block to handle the custom error and provide appropriate feedback.
+function checkUser(userName,email,pass){
+    if (userName==="") {
+        throw new Error("Username to lihko bhai")
+        
+    }
+    if (!email.includes("@")) {
+        throw new Error("Email lihko bhai")
+        
+    }
+    if (pass.length  < 6) {
+        throw new Error("password poora lihko")
+        
+    }
+    return "User sahi hay"
+
+}
+try {
+    console.log(checkUser("username","sohailasuf123@gmail.com",12345));
+} catch (error) {
+    console.log(error.message);
+    
+}
 
 
 
